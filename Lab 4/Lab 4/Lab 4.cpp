@@ -7,6 +7,7 @@ using namespace std;
 
 char fName[50];
 char lName[50];
+char space[10] = " ";
 int main()
 {
 	system("color f0");
@@ -18,7 +19,10 @@ int main()
 	printf("\nEnter last name: ");
 	scanf("%s",lName);
 	printf("\n\nYou enterered: %s %s \n",fName,lName);
-	printf("               %d %d\n\n",strlen(fName),strlen(lName));
+	int fLength = (strlen(fName));
+	int lLength = (strlen(lName));
+	int fSpace = (strlen(fName)-2);
+	printf("               %d %-*s %d\n\n",fLength,fSpace,space,lLength);
 	
 	system("pause");
 	return 0;
