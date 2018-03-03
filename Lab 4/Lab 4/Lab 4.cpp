@@ -18,9 +18,16 @@ int main()
 	scanf("%s",fName);
 	printf("\nEnter last name: ");
 	scanf("%s",lName);
+	//Aligned @ end
 	printf("\n\nYou enterered: %s %s \n",fName,lName);
 	int fLength = (strlen(fName));
 	int lLength = (strlen(lName));
+	int fSpaceEnd = (strlen(fName)-2);
+	int lSpaceEnd = (strlen(lName)-1);
+	printf("               %*s %d", "%*s\n\n",fSpaceEnd,space,fLength,lSpaceEnd,space,lLength);
+
+	//Aligned @ beginning
+	printf("\n\nYou enterered: %s %s \n",fName,lName);
 	int fSpace = (strlen(fName)-2);
 	printf("               %d %-*s %d\n\n",fLength,fSpace,space,lLength);
 	

@@ -1,4 +1,4 @@
-﻿Build started 2/27/2018 8:01:30 PM.
+﻿Build started 2/27/2018 8:33:12 PM.
      1>Project "C:\Users\sean\Documents\Visual Studio 2010\Projects\Lab 4\Lab 4\Lab 4.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\Lab 4.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -33,4 +33,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.62
+Time Elapsed 00:00:00.68
