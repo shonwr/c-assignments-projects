@@ -1,6 +1,7 @@
 //Soliman, Sean
 //Class - 439 Sp 2018
 //Test 2
+//Menu, schedule, booking, and reporting for an airline
 
 // Test 2.cpp : main project file.
 
@@ -15,13 +16,19 @@ void scheduleFunction();
 void vacancyFunction();
 void printReserv();
 void reportFunction();
+
+
 //change foneCounter, ftwoCounter, &/or fthreeCounter numbers to test flights
-//max capacity (fone/ftwo/fthree)counter = 15 = full
-int choice, flightNum, foneCounter = 15, ftwoCounter = 15, fthreeCounter = 15, reportCounter = 1, report[45];
-char input, minput, pinput, full[5]="FULL", avail[10]="AVAILABLE";
+//max capacity for each(fone/ftwo/fthree)counter = 15(full)
+int foneCounter = 0, ftwoCounter = 0, fthreeCounter = 0;
+int choice, reportCounter = 1, report[45];
+
 
 int main()
 {
+
+	char minput;
+
     system("color f0");
 	menu:menuFunction();
 	if(choice == 2){
@@ -65,6 +72,8 @@ void menuFunction(){
 
 
 void scheduleFunction(){
+	char full[5]="FULL", avail[10]="AVAILABLE";
+
 	system("cls");
 	printf("FAST FLIGHT AIRLINES\n");
 	printf("********************************************\n\n");
@@ -86,24 +95,11 @@ void scheduleFunction(){
 		printf("3\tFri\t6:00 PM\t\t%s\n",full);
 	}
 	printf("********************************************\n\n");
-
-	/*
-	printf("Press enter to book a flight or m to return to menu: ");
-	//minput = = getche();
-	scanf("%c",&minput);
-	*/
-
-	/*
-	printf("****FLIGHT #1 IS %s****\n",(foneCounter < 15) ? avail:full);
-	printf("**********************\n\n");
-	printf("****FLIGHT #2 IS %s****\n",(ftwoCounter < 15) ? avail:full);
-	printf("**********************\n\n");
-	printf("****FLIGHT #3 IS %s****\n",(fthreeCounter < 15) ? avail:full);
-	printf("**********************\n\n");
-	*/
 }
 
 void vacancyFunction(){
+	int flightNum;
+
 	printf("\n\nEnter flight number to book: ");
 	scanf("%d", &flightNum);
 	report[reportCounter] = flightNum;
@@ -149,6 +145,8 @@ void vacancyFunction(){
 }
 
 void printReserv(){
+	char pinput;
+
 	printf("******************************************\n");
 	printf("\nWould you like to print your reservation?(y/n): ");
 	scanf("%c", &pinput);
