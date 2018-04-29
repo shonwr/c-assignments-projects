@@ -11,8 +11,7 @@ using namespace std;
 
 //fill array
 int someArr[10]={2,4,6,8,10,12,14,16,18,20};
-int main()
-{
+int main(){
 	system("color f0");
     for(int i=0; i<10; i++){
 		printf("%d ",someArr[i]);
