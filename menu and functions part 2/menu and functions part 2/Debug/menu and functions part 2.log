@@ -1,0 +1,59 @@
+﻿Build started 4/29/2018 7:24:32 PM.
+     1>Project "c:\Users\sean\documents\visual studio 2010\Projects\menu and functions part 2\menu and functions part 2\menu and functions part 2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\menu and functions part 2.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\menu and functions part 2.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt "menu and functions part 2.cpp" /clr:nostdlib 
+         menu and functions part 2.cpp
+     1>menu and functions part 2.cpp(37): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : see declaration of 'scanf'
+     1>menu and functions part 2.cpp(38): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : see declaration of 'scanf'
+     1>menu and functions part 2.cpp(63): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(304) : see declaration of 'scanf'
+     1>menu and functions part 2.cpp(74): error C2660: 'pattern1' : function does not take 2 arguments
+     1>menu and functions part 2.cpp(76): error C2360: initialization of 'j' is skipped by 'case' label
+                 menu and functions part 2.cpp(73) : see declaration of 'j'
+     1>menu and functions part 2.cpp(76): error C2360: initialization of 'i' is skipped by 'case' label
+                 menu and functions part 2.cpp(72) : see declaration of 'i'
+     1>menu and functions part 2.cpp(79): error C2360: initialization of 'j' is skipped by 'case' label
+                 menu and functions part 2.cpp(73) : see declaration of 'j'
+     1>menu and functions part 2.cpp(79): error C2360: initialization of 'i' is skipped by 'case' label
+                 menu and functions part 2.cpp(72) : see declaration of 'i'
+     1>menu and functions part 2.cpp(82): error C2360: initialization of 'j' is skipped by 'case' label
+                 menu and functions part 2.cpp(73) : see declaration of 'j'
+     1>menu and functions part 2.cpp(82): error C2360: initialization of 'i' is skipped by 'case' label
+                 menu and functions part 2.cpp(72) : see declaration of 'i'
+     1>menu and functions part 2.cpp(85): error C2360: initialization of 'j' is skipped by 'case' label
+                 menu and functions part 2.cpp(73) : see declaration of 'j'
+     1>menu and functions part 2.cpp(85): error C2360: initialization of 'i' is skipped by 'case' label
+                 menu and functions part 2.cpp(72) : see declaration of 'i'
+     1>menu and functions part 2.cpp(88): error C2360: initialization of 'j' is skipped by 'case' label
+                 menu and functions part 2.cpp(73) : see declaration of 'j'
+     1>menu and functions part 2.cpp(88): error C2360: initialization of 'i' is skipped by 'case' label
+                 menu and functions part 2.cpp(72) : see declaration of 'i'
+     1>menu and functions part 2.cpp(91): error C2360: initialization of 'j' is skipped by 'case' label
+                 menu and functions part 2.cpp(73) : see declaration of 'j'
+     1>menu and functions part 2.cpp(91): error C2360: initialization of 'i' is skipped by 'case' label
+                 menu and functions part 2.cpp(72) : see declaration of 'i'
+     1>menu and functions part 2.cpp(94): error C2360: initialization of 'j' is skipped by 'case' label
+                 menu and functions part 2.cpp(73) : see declaration of 'j'
+     1>menu and functions part 2.cpp(94): error C2360: initialization of 'i' is skipped by 'case' label
+                 menu and functions part 2.cpp(72) : see declaration of 'i'
+     1>menu and functions part 2.cpp(97): error C2360: initialization of 'j' is skipped by 'case' label
+                 menu and functions part 2.cpp(73) : see declaration of 'j'
+     1>menu and functions part 2.cpp(97): error C2360: initialization of 'i' is skipped by 'case' label
+                 menu and functions part 2.cpp(72) : see declaration of 'i'
+     1>menu and functions part 2.cpp(100): error C2360: initialization of 'j' is skipped by 'case' label
+                 menu and functions part 2.cpp(73) : see declaration of 'j'
+     1>menu and functions part 2.cpp(100): error C2360: initialization of 'i' is skipped by 'case' label
+                 menu and functions part 2.cpp(72) : see declaration of 'i'
+     1>menu and functions part 2.cpp(124): error C2082: redefinition of formal parameter 'countB'
+     1>Done Building Project "c:\Users\sean\documents\visual studio 2010\Projects\menu and functions part 2\menu and functions part 2\menu and functions part 2.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.93
