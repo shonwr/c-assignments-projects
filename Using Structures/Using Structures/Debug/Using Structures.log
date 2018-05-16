@@ -1,0 +1,25 @@
+﻿Build started 5/15/2018 4:05:05 PM.
+     1>Project "C:\Users\csadvanced\Downloads\Using Structures\Using Structures\Using Structures.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Using Structures.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         Using Structures.vcxproj -> C:\Users\csadvanced\Downloads\Using Structures\Debug\Using Structures.exe
+       MetaGen:
+       Skipping target "MetaGen" because all output files are up-to-date with respect to the input files.
+       FinalizeBuildStatus:
+         Deleting file "Debug\Using Structures.unsuccessfulbuild".
+         Touching "Debug\Using Structures.lastbuildstate".
+     1>Done Building Project "C:\Users\csadvanced\Downloads\Using Structures\Using Structures\Using Structures.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07

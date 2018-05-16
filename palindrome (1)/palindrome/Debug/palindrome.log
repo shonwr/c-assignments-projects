@@ -1,0 +1,25 @@
+﻿Build started 5/10/2018 12:21:46 PM.
+     1>Project "C:\Users\csadvanced\Downloads\palindrome-20180510T174309Z-001\palindrome\palindrome\palindrome.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\palindrome.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         palindrome.vcxproj -> C:\Users\csadvanced\Downloads\palindrome-20180510T174309Z-001\palindrome\Debug\palindrome.exe
+       MetaGen:
+       Skipping target "MetaGen" because all output files are up-to-date with respect to the input files.
+       FinalizeBuildStatus:
+         Deleting file "Debug\palindrome.unsuccessfulbuild".
+         Touching "Debug\palindrome.lastbuildstate".
+     1>Done Building Project "C:\Users\csadvanced\Downloads\palindrome-20180510T174309Z-001\palindrome\palindrome\palindrome.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.09
