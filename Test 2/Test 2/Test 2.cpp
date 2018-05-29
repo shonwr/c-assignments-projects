@@ -1,7 +1,6 @@
 //Soliman, Sean
 //Class - 439 Sp 2018
 //Test 2
-//Menu, schedule, booking, and reporting for an airline
 
 // Test 2.cpp : main project file.
 
@@ -16,19 +15,13 @@ void scheduleFunction();
 void vacancyFunction();
 void printReserv();
 void reportFunction();
-
-
 //change foneCounter, ftwoCounter, &/or fthreeCounter numbers to test flights
-//max capacity for each(fone/ftwo/fthree)counter = 15(full)
-int foneCounter = 0, ftwoCounter = 0, fthreeCounter = 0;
-int choice, reportCounter = 1, report[45];
-
+//max capacity counter(flight) = 15 = full
+int choice, flightNum, foneCounter = 0, ftwoCounter = 0, fthreeCounter = 0, reportCounter = 1, report[45];
+char input, minput, pinput, full[5]="FULL", avail[10]="AVAILABLE";
 
 int main()
 {
-
-	char minput;
-
     system("color f0");
 	menu:menuFunction();
 	if(choice == 2){
@@ -62,7 +55,7 @@ void menuFunction(){
 	system("cls");
 	printf("FAST FLIGHT AIRLINES\n");
 	printf("**********************\n");
-	printf("1.Flight schedule, availability, and booking\n");
+	printf("1.Flight schedule and availability\n");
 	printf("2.Report of flights in order entered\n");
 	printf("3.Exit\n\n");
 	printf("Enter your selection: ");
@@ -72,8 +65,6 @@ void menuFunction(){
 
 
 void scheduleFunction(){
-	char full[5]="FULL", avail[10]="AVAILABLE";
-
 	system("cls");
 	printf("FAST FLIGHT AIRLINES\n");
 	printf("********************************************\n\n");
@@ -95,11 +86,26 @@ void scheduleFunction(){
 		printf("3\tFri\t6:00 PM\t\t%s\n",full);
 	}
 	printf("********************************************\n\n");
+
+	/*
+	printf("Press enter to book a flight or m to return to menu: ");
+	//minput = = getche();
+	scanf("%c",&minput);
+	*/
+
+
+	/*
+	printf("****FLIGHT #1 IS %s****\n",(foneCounter < 15) ? avail:full);
+	printf("**********************\n\n");
+	printf("****FLIGHT #2 IS %s****\n",(ftwoCounter < 15) ? avail:full);
+	printf("**********************\n\n");
+	printf("****FLIGHT #3 IS %s****\n",(fthreeCounter < 15) ? avail:full);
+	printf("**********************\n\n");
+	*/
+	
 }
 
 void vacancyFunction(){
-	int flightNum;
-
 	printf("\n\nEnter flight number to book: ");
 	scanf("%d", &flightNum);
 	report[reportCounter] = flightNum;
@@ -145,12 +151,13 @@ void vacancyFunction(){
 }
 
 void printReserv(){
-	char pinput;
-
+	//system("cls");
 	printf("******************************************\n");
 	printf("\nWould you like to print your reservation?(y/n): ");
+	//pinput = getche();
 	scanf("%c", &pinput);
 	scanf("%c", &pinput);
+	//scanf("%c");
 	if(pinput == 'y'){
 		printf("\nPrinting your reservation...\n");
 	}
@@ -159,23 +166,15 @@ void printReserv(){
 }
 
 void reportFunction(){
-	system("cls");
-	printf("Report of flights booked in order entered\n");
-	printf("*****************************************\n\n");
-	
-	if(reportCounter == 1){
-		printf("There are no reported flights booked as of yet\n");
-	}else{
-		for(int i=1; i<reportCounter; i++){
+	printf("Report of flights booked in order entered\n\n");
+
+	for(int i=1; i<reportCounter; i++){
+		if(reportCounter == 1){
+			printf("There are no reported flights booked as of yet\n");
+		}else{
 			printf("%d. Flight %d\n", i, report[i]);
 		}
-		printf("******************************************\n\n");
-		printf("Total number of flights booked for each flight\n\n");
-		printf("Flight 1: %d\n", foneCounter);
-		printf("Flight 2: %d\n", ftwoCounter);
-		printf("Flight 3: %d\n", fthreeCounter);
 	}
-	
-	printf("\n\nPress enter to return to menu: ");
+	printf("\n\nPress enter to continue: ");
 	scanf("%c");
 }

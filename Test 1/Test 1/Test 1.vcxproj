@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D77FBBE4-FD91-4166-8783-27ED372D959B}</ProjectGuid>
+    <ProjectGuid>{96EC301A-50E2-4FE4-AE1A-35DE0D0B1EA9}</ProjectGuid>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <Keyword>ManagedCProj</Keyword>
     <RootNamespace>Test1</RootNamespace>
